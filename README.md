@@ -50,9 +50,9 @@ new Book({
 
 ## Images
 
-<img src="./assets/Page1.png"/>
-<img src="./assets/Page2.png"/>
-<img src="./assets/Page3.png"/>
+<img src="https://github.com/SeneSatka/djs-pagination/blob/main/assets/Page1.png?raw=true"/>
+<img src="https://github.com/SeneSatka/djs-pagination/blob/main/assets/Page2.png?raw=true"/>
+<img src="https://github.com/SeneSatka/djs-pagination/blob/main/assets/Page3.png?raw=true"/>
 
 ## Book Storage
 
