@@ -1,18 +1,17 @@
 {
   "name": "@senka/djs-pagination",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./dist/cjs/index.js",
   "module": "./dist/mjs/index.js",
   "types": "./dist/typings/index.d.ts",
-  "exports": {
-    "import": "./dist/mjs/index.js",
-    "require": "./dist/cjs/index.js",
-    "types": "./dist/typings/index.d.ts"
-  },
   "scripts": {
     "dev": "nodemon --watch ./src -e ts --exec 'npm run start' ",
     "start": "clear&&cd src&&node --no-warnings=ExperimentalWarning --loader ts-node/esm index.ts",
     "build": "tsc --project tsconfig.json & tsc --project tsconfig.mjs.json "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SeneSatka/djs-pagination/tree/main"
   },
   "author": "SeneSatka",
   "license": "Apache-2.0",
