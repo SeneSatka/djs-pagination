@@ -1,0 +1,30 @@
+{
+  "name": "@senka/djs-pagination",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/mjs/index.js",
+  "types": "./dist/typings/index.d.ts",
+  "exports": {
+    "import": "./dist/mjs/index.js",
+    "require": "./dist/cjs/index.js",
+    "types": "./dist/typings/index.d.ts"
+  },
+  "scripts": {
+    "dev": "nodemon --watch ./src -e ts --exec 'npm run start' ",
+    "start": "clear&&cd src&&node --no-warnings=ExperimentalWarning --loader ts-node/esm index.ts",
+    "build": "tsc --project tsconfig.json & tsc --project tsconfig.mjs.json "
+  },
+  "author": "SeneSatka",
+  "license": "Apache-2.0",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@senka/db": "^1.0.5",
+    "discord.js": "^14.15.3"
+  }
+}
